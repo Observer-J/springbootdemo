@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>
+                <td>姓名</td>
+                <td>性别</td>
+            </th>
+        </thead>
+        <tbody>
+            <th>
+                <td th:text="${person.name}">张三</td>
+                <td th:text="${person.gender}">1</td>
+            </th>
+        </tbody>
+    </table>
+</body>
+</html>
