@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+    <script type="text/javascript"   src="/js/jquery-3.2.1.min.js" th:src="@{/js/jquery-3.2.1.min.js}"></script>
+    <script type="text/javascript"  src="/layer3.03/layer.js" th:src="@{/layer3.03/layer.js}"></script>
+    <script type="text/javascript"  src="/js/common/common.js" th:src="@{/js/common/common.js}"></script>
+    <script type="text/javascript"  src="/js/person/personList.js" th:src="@{/js/person/personList.js}"></script>
+    <style>
+        ul{ list-style:none; padding:0px; margin:0px; width:590px;
+            height:20px; line-height:20px; border:1px solid #99CC00;
+            border-top:0px; font-size:12px;}
+        ul li{ display:block; width:33%; float:left;text-indent:2em}
+        .th{ background:#F1FADE; font-weight:bold; border-top:1px }
+    </style>
+</head>
+<body>
+<div id="personList">
+    <ul class="th">
+        <li>姓名</li>
+        <li>班级</li>
+        <li>年龄</li>
+    </ul>
+    <ul>
+        <li>阿三</li>
+        <li>3-1</li>
+        <li>13</li>
+    </ul>
+    <ul>
+        <li>小龙</li>
+        <li>2-4</li>
+        <li>16</li>
+    </ul>
+    <ul>
+        <li>大马</li>
+        <li>5-3</li>
+        <li>17</li>
+    </ul>
+</div>
+</body>
+</html>
